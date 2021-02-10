@@ -1,0 +1,30 @@
+{
+    "name": "Black Magic Browser Extension",
+    "short_name": "BM Browser",
+    "author": "En Canada",
+    "description": "An extension for crytocurrency donation to Black Magic.",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent", "storage","<all_urls>"],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "page_action": {
+        "default_title": "Black Magic",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "BM Black.png",
+            "32": "BM Black.png",
+            "48": "BM Black.png",
+            "128": "BM Black.png"
+        }
+    },
+    "icons": {
+        "16": "BM Black.png",
+        "32": "BM Black.png",
+        "48": "BM Black.png",
+        "128": "BM Black.png"
+    },
+    "manifest_version": 2
+}
