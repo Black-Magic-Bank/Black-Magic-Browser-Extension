@@ -1,4 +1,4 @@
-# Black-Magic-Browser-Extension
+# Black Magic Browser Extension
 The early stage of the Black Magic Browser Extension. There are currently no features, however the extension will continue to be developed.
 
 # Purpose
